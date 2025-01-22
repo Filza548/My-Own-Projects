@@ -7,7 +7,7 @@
 .parent{
     width: 100%;
     height: 90vh;
-    background-color: cadetblue;
+    /* background-color: rgb(17, 169, 85); */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,86 +17,174 @@
 .parent-child-1st{
     width: 100%;
     height: 10vh;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-around;
 }
 
 .parent-child-2nd{
-    width: 90%;
-    height: 60vh;
-    background-color: brown;
+    width: 85%;
+    height: 70vh;
+    background-color:#F4F5F6;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-radius: 15px;
 }
 
 .left-1{
     width: 45%;
-    height: 50vh;
-    background-color: rgb(33, 196, 201);
+    height: 60vh;
+    /* background-color: rgb(33, 196, 201); */
+    position: relative;
 
 }
 
-/* .white-rec{
-    position: relative;
-    top: 4px;
+.white-rec{
+    width: 200px;
+    height: 60px;
+    /* display: flex; */
+    
+    /* background-color: yellow; */
+    
+    margin-left: 70px;
+
 }
 
 .white-rec > img{
-    width: 30%;
-} */
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
 
 
-/* .yellow-rec{
-    position: relative;
-    left: 6px;
-    top: 40px;
+.yellow-rec{
+    width: 250px;
+    height: 50px;
+    /* background-color: yellow; */
+    
+    margin-left: 70px;
 }
 
 .yellow-rec > img{
-    width: 40%;
-    
-} */
+    width: 100%;
+    margin-top: 75px;
+}
 
-/* .text-image{
-    display: flex;
-    background-color: chartreuse;
+.text-image{
+    /* background-color: chartreuse; */
     position: relative;
-    margin-top: -95px;
-    left: 20px;
+    /* margin-top: -150px;
+    left: 80px; */
 
 }
 
 .text-image > img{
-    width: 35%;
-} */
+    width:50%;
+    position: absolute;
+    left: 90px;
+    margin-top: -78px;
+}
 
-/* .text-1{
+.text-1{
     width: 60%;
     height: 30px;
-    background-color: chartreuse;
-    margin-top: 25px;
-    margin-left: 20px;
+    /* background-color: chartreuse; */
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-top: 165px;
 
 }
 
 .text-1 > p{
     font-family: sans-serif;
     font-size: 15px;
-    
-
-
-} */
-
-
-.right-1{
-    width: 40%;
-    height: 60vh;
-    background-color: yellowgreen;
 }
 
+.shop-now{
+    width: 130px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: black;
+    color:white;
+    margin-top: 15px;
+    margin-left: 75px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+.shop-now:hover{
+    transform: scale(1.1);
+}
+
+.right-1{
+    width: 48%;
+    height: 70vh;
+    /* background-color: yellowgreen; */
+
+}
+
+.right-1 > img{
+    width: 90%;
+    height: 100%;
+    
+}
+
+.star-image{
+    width: 50px;
+    height: 50px;
+    /* background-color: blue; */
+    position:absolute;
+    margin-top: -400px;
+    margin-left: 600px;
+    
+}
+
+.star-image img{
+    width: 70%;    
+}
+
+.star-2-image{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    /* background-color: cadetblue; */
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 1000px;
+}
+
+.star-2-image img{
+    width: 80%;
+}
+
+.star-3-image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -110px ;
+    margin-left: 1050px;
+    /* background-color: aquamarine; */
+    
+}
+
+.star-3-image img{
+    width: 70%;
+    
+}
+.star-4-image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -70px ;
+    margin-left: 650px;
+    /* background-color: aquamarine; */
+    
+}
+
+.star-4-image img{
+    width: 70%;
+    
+}
 .logo-div{
     width: 30%;
     height: 10vh;
@@ -143,5 +231,10 @@
     border-radius: 10px;
     font-size: small;
     color: white;
-    /* margin-bottom: 10px; */
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+.sign-up:hover{
+    transform: scale(1.1);
 }

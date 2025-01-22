@@ -238,3 +238,157 @@
 .sign-up:hover{
     transform: scale(1.1);
 }
+
+.hero-section-parent{
+    width: 100%;
+    height: 13vh;
+    background-color: #E6C744;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.hero-section-child1{
+    width: 80%;
+    height: 8vh;
+background-color: #E6C744;
+display: flex;
+justify-content: space-around;
+}
+
+.shopping-images-1{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+   
+}
+
+.shopping-images-1 > img{
+    width: 100px;
+    
+}
+
+.zoom{
+transition: transform 0.3s ease;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.shopping-images-2{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.shopping-images-2 > img{
+    width: 100px;
+    
+}
+
+.shopping-images-3{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+/* align-items: center; */
+
+}
+
+.shopping-images-3 > img{
+    width: 100px;
+    
+}
+
+.shopping-images-4{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    /* align-items: center; */
+
+}
+
+.shopping-images-4 > img{
+    width: 110px;
+    margin-bottom: 10px;
+    
+}
+.shopping-images-5{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+.shopping-images-5 > img{
+    width: 100px;
+    
+}
+
+.shopping-images-6{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+.shopping-images-6 > img{
+    width: 100px;
+    margin-top: 10px;
+    
+}
+
+.hero-section-1{
+    width: 100%;
+    height: 13vh;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.hero-section-child-1{
+    width: 85%;
+    height: 11vh;
+    /* background-color: #E6C744; */
+    display: flex;
+   
+    align-items: center;
+}
+
+.leaf-image{
+    width: 25%;
+    height: 10vh;
+    /* background-color: blueviolet; */
+}
+
+.leaf-image > img{
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.new-arrivals-heading{
+    width: 25%;
+height: 10vh;
+/* background-color: lightblue; */
+position: relative;
+left: -270px;
+display: flex;
+align-items: center;
+}
+
+.new-arrivals-heading > h3{
+font-family: sans-serif;
+font-weight: 800;
+font-size: 30px;
+position: absolute;
+}
